@@ -1,0 +1,138 @@
+body,ul,p,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+    font-family:"Jost", sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Ширина найширшой секції */
+.container{
+    width: 1120px;
+    margin: auto;
+}
+.header{
+    padding-top: 32px;
+    background-color: #DDF9FF;
+    padding-bottom: 27px;
+    display: flex;
+}
+.header-list{
+    display: flex;
+    gap: 64px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-link{
+    color: #3A2E2E;
+    font-size: 24px;
+    font-weight: 700;
+}
+.hero{
+    padding-bottom: 48px;
+    background-color: #DDF9FF;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 57px;
+}
+.hero-subtitle{
+    color: #627884;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.hero-title{
+    color: #3A2E2E;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.hero-text{
+    color: #3A2E2E;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+.hero-link{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+    box-shadow:  0 4 10 #00000840;
+    background-color: #627884;
+    padding: 16px 22px;
+    display: inline-block;
+    border-radius: 30px;
+}
+/* section 2 */
+.services{
+    padding: 24px 52px;
+}
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px ;
+}
+.services-title{
+   text-align: center;   
+}
+.services-title::after{
+    content:"";
+    border-bottom: 4px solid #627884;
+    display: block;
+    width: 351px;
+    border-radius: 4px;
+    margin: 18px auto 47px;
+}
+.services-img{
+  width: 49px;
+  height: 49px;
+}
+.services-item{
+    display: flex;
+    max-width: 313px;
+    gap: 15px;
+  
+}
+.hero-subtitle{
+    padding-bottom: 25px;
+}
+span{
+    color: #627884;
+}
+/* футер */
+.footer{
+    background-color: #535353;
+    padding-bottom: 73px;
+    padding-top: 32px;
+}
+.footer-logo{
+   border-bottom: 2px solid #627884;
+   display: block;
+   padding-bottom: 28px;
+}
+.footer-title{
+   color: #FFFFFF;
+   font-weight: 500;
+   font-size: 24px;
+   width: 244px;
+   height: 58px;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    color: #FFFFFF;
+}
